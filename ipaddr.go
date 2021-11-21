@@ -26,6 +26,6 @@ func main() {
 	} else {
 		fmt.Println("IPV6 address:", ip6)
 	}
-fmt.Println("Press enter to continue.")
-fmt.Scanln()
+	fmt.Println("Press enter to continue.")
+	fmt.Scanln()
 }
