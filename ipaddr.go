@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/tech10/go-ipify"
+	"github.com/tech10/ipify"
 )
 
 func main() {

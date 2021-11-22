@@ -1,4 +1,4 @@
 github.com/jpillora/backoff v1.0.0 h1:uvFg412JmmHBHw7iwprIxkPMI+sGQ4kzOWsMeHnm2EA=
 github.com/jpillora/backoff v1.0.0/go.mod h1:J/6gKK9jxlEcS3zixgDgUAsiuZ7yrSoa/FX5e0EB2j4=
-github.com/tech10/go-ipify v1.0.1 h1:3G8mriITn//moKeOYAQFLzTTnczGfOMdv8S1dBWsMEQ=
-github.com/tech10/go-ipify v1.0.1/go.mod h1:88XTl3Wqw/emV9zC4+z0kvgTzDJlzN4Aw82M9Wc/bEA=
+github.com/tech10/ipify v1.0.1 h1:fwEQ6H5JMMt2FyeAhqBiuyIBpwQ+uXPTs9Err2NRmT8=
+github.com/tech10/ipify v1.0.1/go.mod h1:PN3Pt/Ea/95GiVYn382refE7Zg2e4/biElLlR+yxpzY=
