@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
+
 	"github.com/tech10/ipify"
 )
 
 func main() {
-
 	// Initialize variables.
 	// We will be resolving to IPV4 and IPV6.
 	var ip4 string
