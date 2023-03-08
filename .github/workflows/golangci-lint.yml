@@ -15,7 +15,6 @@ jobs:
         with:
           go-version: stable
           check-latest: true
-          cache: true
       - name: Go module download
         run: go mod download
       - name: golangci-lint
