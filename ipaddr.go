@@ -27,5 +27,5 @@ func main() {
 		fmt.Println("IPV6 address:", ip6)
 	}
 	fmt.Println("Press enter to continue.")
-	fmt.Scanln()
+	_, _ = fmt.Scanln()
 }
