@@ -1,3 +1,4 @@
+version: 2
 project_name: ipaddr
 before:
   hooks:
@@ -27,12 +28,11 @@ builds:
         goarch: 386
 archives:
   -
-    rlcp: true
     format_overrides:
       - goos: windows
-        format: zip
+        formats: zip
       - goos: darwin
-        format: zip
+        formats: zip
     files:
       - UNLICENSE
       - README.MD
@@ -41,7 +41,7 @@ archives:
 checksum:
   name_template: 'checksums.txt'
 snapshot:
-  name_template: "{{ .Tag }}-next"
+  version_template: "{{ .Tag }}-next"
 signs:
   - artifacts: checksum
 changelog:
@@ -52,6 +52,5 @@ changelog:
       - '^release:'
 source:
   enabled: true
-  rlcp: true
   name_template: "{{ .ProjectName }}_source"
   format: "tar.gz"
